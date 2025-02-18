@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Email Header Analyzer",
+  "version": "1.0",
+  "permissions": ["identity", "activeTab", "scripting"],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "oauth2": {
+      "client_id": "974663433663-i808re6lcp0eqd72gkd9m09542fgl7pc.apps.googleusercontent.com",
+      "scopes": [
+          "https://www.googleapis.com/auth/gmail.readonly"
+      ]
+  },
+  "host_permissions": [
+      "https://www.googleapis.com/*"
+  ],
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+  }
+}

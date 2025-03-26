@@ -7,7 +7,7 @@
       "service_worker": "background.js"
   },
   "oauth2": {
-      "client_id": "974663433663-i808re6lcp0eqd72gkd9m09542fgl7pc.apps.googleusercontent.com",
+      "client_id": "<client id>",
       "scopes": [
           "https://www.googleapis.com/auth/gmail.readonly"
       ]

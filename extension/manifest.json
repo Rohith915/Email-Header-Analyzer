@@ -1,3 +1,4 @@
+# email header 
 {
   "manifest_version": 3,
   "name": "Email Header Analyzer",
@@ -20,3 +21,4 @@
       "default_icon": "icon.png"
   }
 }
+
